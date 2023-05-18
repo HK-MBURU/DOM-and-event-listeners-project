@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 1000px;
+    height: auto;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+
+}
+.input{
+    width: 400px;
+    height: auto;
+    background-color: green;
+    border-radius: 5px;
+}
+.input h3{
+    color: white;
+}
+.input form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    
+}
+form input{
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    width: 310px;
+    outline: none;
+
+}
+.display{
+    width: 400px;
+    height: auto;
+    background-color: rgb(38, 0, 255);
+    border-radius: 5px;
+}
+.display h3{
+    color: white;
+}
+.cards{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    justify-content: space-around;
+    width: 100%;  
+}
+.input-items{
+    display: flex;
+    flex-direction: row;
+    
+}
+.category select{
+    
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    width: 310px;
+    outline: none;
+
+}
+form button{
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(71, 7, 248);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.display .head{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    color: white;
+    height: fit-content;
+}
+.action button{
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    height: 25px;
+    border-radius: 6px;
+}
