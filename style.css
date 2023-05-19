@@ -95,11 +95,12 @@ form button{
     color: white;
     height: fit-content;
 }
-.action button{
+ button{
     outline: none;
     border: none;
     background-color: red;
     color: white;
     height: 25px;
     border-radius: 6px;
+    margin: 3px;
 }
